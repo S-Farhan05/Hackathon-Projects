@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Dynamic-Editable-Resume</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+   <h1><span class="both">Editable and Dynamic Resume Builder</span></h1>
+   <br>
+     <form id="my-form">
+          
+          <fieldset>
+            <legend>Contact info</legend>
+            <label for="name"><p>Name:</p> </label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+
+            
+            <label for="email"> <p>Email:</p> </label>
+            <input type="email" id="email" placeholder="Enter your email address" required>
+
+           
+            <label for="number"><p>Contact number:</p> </label>
+            <input type="tel" id="number" placeholder="Enter your phone number" required>
+
+            
+            <label for="social"><p>Media</p> </label>
+            <input type="text" id="social" placeholder="e.g Github,linkedn" >
+            
+          </fieldset>
+          
+
+          <fieldset>
+            <legend>Education</legend>
+            <label for="education"><p>Enter your education : </p> </label>
+            <!-- <input type="textArea" id="name" placeholder="Enter your full name" required> -->
+            <textarea id="education" placeholder="Enter about your education briefly" rows="4" required></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Experience</legend>
+                <label for="experience"><p>Experience : </p> </label>
+                <!-- <input type="textArea" id="name" placeholder="Enter your full name" required> -->
+                <textarea id="experience" placeholder="Work Experience" rows="4" required></textarea>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Skills</legend>
+                    <label for="skills"><p>Skills: </p> </label>
+                    <!-- <input type="textArea" id="name" placeholder="Enter your full name" required> -->
+                    <textarea id="skills" placeholder="What skills you acquired?" rows="4" required></textarea>
+                    </fieldset>
+
+                    <button type="submit">Generate your resume</button>
+    </form>
+    <br>
+    <div id="resume-dis" contenteditable="true">
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
