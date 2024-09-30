@@ -1,0 +1,152 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+background-color:white;
+
+
+}
+
+.both{ 
+    border : 3px solid;
+    border-color: rgb(6, 6, 145);
+    text-shadow: 1px 1px 1px rgba(200, 0, 0, 0.5);
+    letter-spacing: 1px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 2px;
+    box-shadow: 0 10px 4px rgba(0, 0, 0, 0.5), 0 6px 10px rgba(0, 0, 0, 0.3);
+    background: cyan;
+    
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-weight: 900;
+    
+    
+}
+form{
+   
+    background-color: rgb(228, 242, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    max-width: 700px;
+    margin: auto;
+
+}
+legend{
+    text-align: center;
+    color: darkblue;
+    font-weight: 600;
+    padding-top: 20px;
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+    color: black;
+    font-weight: 900;
+    padding-left: 15px;
+}
+label{
+    display: block;
+    margin-top: 30px;
+    
+    
+    
+}
+input{
+ width: 200px;
+ height:40px;
+ padding-left: 25px;
+ font-weight: 900;
+ font-size: 15px;
+}
+fieldset{
+    border: 2px solid skyblue;
+    margin: 30px;
+    border-radius: 8px;
+    background-color: aliceblue;
+   
+}
+#email {
+    margin-left: 15px;
+}
+#name {
+    margin-left: 15px;
+}
+#number{
+    margin-left: 15px;
+}
+#social{
+    margin-left: 15px;
+}
+textarea{
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid skyblue;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    font-weight: 900;
+    font-size: 15px;
+}
+#experience{
+    font-size: 15px;
+    font-weight: 900;
+}
+button{
+
+    color: black;
+    padding: 10px;
+    margin-left: 200px;
+    text-transform: uppercase;
+    font-size: 20px;
+    max-width: 400px;
+    background-color: aqua;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+button:hover{
+    background-color: lime;
+}
+button:active{
+    background-color:crimson;
+}
+#resume-dis{
+    background-color: skyblue;
+    max-width: 600px;
+    margin: auto;
+    border: 2px solid cyan;
+    box-shadow: 2px 2px 4px lightblue;
+    border-radius: 2px;
+    padding: 20px;
+    outline: none;
+}
+#resume-dis h2{
+    color: darkblue;
+    padding-left: 20px;
+    font-weight: 900;
+    
+}
+#resume-dis p{
+    padding-left: 20px;
+    color: aqua;
+    font-weight: 900;
+}
+#resume-dis h2{
+    padding-left: 200px;
+    color: black;
+    font-weight: 900;
+}
+
+
+/* display: flex; 
+align-items: center;
+justify-content: center;
+flex-direction: column;  
+max-height: 100vh;           masla ajaigaa kio kai flex vertical wont allow to move row   */  
